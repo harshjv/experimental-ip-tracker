@@ -1,0 +1,40 @@
+{
+  "name": "Experimental IP Tracker",
+  "description": "WIP: Experimental IP Tracker",
+  "repository": "https://github.com/harshjv/experimental-ip-tracker",
+  "keywords": ["ip", "tracker"],
+  "env": {
+    "FROM_NAME": {
+      "description": "Email From Name",
+      "value": "John Doe"
+    },
+    "FROM_EMAIL": {
+      "description": "From Email",
+      "value": "john@doe.com"
+    },
+    "PASSWORD": {
+      "description": "SMTP password",
+      "value": "SMTP password"
+    },
+    "TO_EMAIL": {
+      "description": "To Email",
+      "value": "john@doe.com"
+    },
+    "SMTP_SERVER": {
+      "description": "SMTP Server",
+      "value": "smtp.gmail.com"
+    },
+    "SUBJECT": {
+      "description": "IP Tracked",
+      "value": "Got some IP"
+    },
+    "DEFAULT_RESPONSE": {
+      "description": "Default response to show the visitor",
+      "value": "Content Expired"
+    },
+    "GEOIP_API": {
+      "description": "Geo IP API URL",
+      "value": "http://ipinfo.io/"
+    }
+  }
+}
